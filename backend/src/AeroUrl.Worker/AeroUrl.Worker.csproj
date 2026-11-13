@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-AeroUrl.Worker-56a6e35e-0b7f-40a4-bbd3-5a564c00fb5e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AeroUrl.Core\AeroUrl.Core.csproj" />
+    <ProjectReference Include="..\AeroUrl.Infrastructure\AeroUrl.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

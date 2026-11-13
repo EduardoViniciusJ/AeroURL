@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AeroUrl.Api/AeroUrl.Api.csproj" />
+    <Project Path="src/AeroUrl.Core/AeroUrl.Core.csproj" />
+    <Project Path="src/AeroUrl.Infrastructure/AeroUrl.Infrastructure.csproj" />
+    <Project Path="src/AeroUrl.Worker/AeroUrl.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AeroUrl.IntegrationTests/AeroUrl.IntegrationTests.csproj" />
+    <Project Path="tests/AeroUrl.UnitTests/AeroUrl.UnitTests.csproj" />
+  </Folder>
+</Solution>
